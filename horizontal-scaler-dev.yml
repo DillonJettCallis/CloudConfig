@@ -5,7 +5,7 @@ server:
 
 cloud:
   cloud: aws-ec2
-  maxNodes: 0
+  maxNodes: 1
   imageConfig:
     hardwareId: t2.small
     imageId: us-west-2/ami-d732f0b7
