@@ -1,7 +1,12 @@
 server:
   port: 8080
-  
-  
+
+
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: elasticsearch:9300
+
 logger:
   elasticsearch:
     enabled: true
