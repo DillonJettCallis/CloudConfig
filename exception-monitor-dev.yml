@@ -5,13 +5,7 @@ server:
 spring:
   data:
     elasticsearch:
-      cluster-nodes: elasticsearch:9300
-
-logger:
-  elasticsearch:
-    enabled: true
-    host: elasticsearch
-    port: 9300
+      cluster-nodes: localhost:9300
 
 logging:
   level:
