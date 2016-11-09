@@ -7,7 +7,7 @@ spring:
     elasticsearch:
       cluster-nodes: elasticsearch:9300
   rabbitmq:
-    host: localhost
+    host: rabbitmq
     port: 5672
 logger:
   elasticsearch:
