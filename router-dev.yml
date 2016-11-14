@@ -4,6 +4,11 @@ info:
 server:
   port: 8764
 
+spring:
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+
 endpoints:
   restart:
     enabled: true
@@ -11,12 +16,6 @@ endpoints:
     enabled: true
   health:
     sensitive: false
-
-logger:
-  elasticsearch:
-    enabled: true
-    host: elasticsearch
-    port: 9300
 
 eventBus:
   broker: redis
@@ -43,18 +42,6 @@ hystrix:
 ribbon:
   ReadTimeout: 6000
   ConnectTimeout: 3000
-
-# zuul:
-#   RibbonRoutingFilter:
-#     route:
-#       disable: true
-#   PreDecorationFilter:
-#     route:
-#       disabe: true
-#
-# ribbon:
-#   eureka:
-#     enabled: false
 
 eureka:
   instance:

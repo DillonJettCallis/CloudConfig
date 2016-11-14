@@ -1,7 +1,10 @@
 server:
   port: 8080
 
-
+spring: 
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
 
 cloud:
   cloud: aws-ec2
@@ -14,21 +17,9 @@ cloud:
 docker:
   port: 9999
 
-logger:
-  elasticsearch:
-    enabled: true
-    host: elasticsearch
-    port: 9300
-
 logging:
   level:
      com.cooksys: debug
-
-eventBus:
-  broker: redis
-  redisHost: redis
-  redisPort: 6379
-  redisTopic: csrt-event-bus
 
 eureka:
   client:
