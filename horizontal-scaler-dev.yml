@@ -7,7 +7,7 @@ spring:
     port: 5672
   redis:
     host: redis
-    host: 6379
+    port: 6379
 
 cloud:
   cloud: aws-ec2
