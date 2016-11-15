@@ -11,7 +11,7 @@ spring:
 
 cloud:
   cloud: aws-ec2
-  maxNodes: 2
+  maxNodes: 6
   imageConfig:
     hardwareId: t2.small
     imageId: us-west-2/ami-a9d276c9
