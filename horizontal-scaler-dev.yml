@@ -14,7 +14,7 @@ cloud:
   maxNodes: 6
   imageConfig:
     hardwareId: t2.small
-    imageId: us-west-2/ami-a9d276c9
+    imageId: us-west-2/ami-1678d576
     locationId: us-west-2
 
 docker:
