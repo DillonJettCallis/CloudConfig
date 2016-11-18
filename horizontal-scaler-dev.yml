@@ -15,7 +15,9 @@ cloud:
   imageConfig:
     hardwareId: t2.small
     imageId: us-west-2/ami-1678d576
+    user: ubuntu
     locationId: us-west-2
+
 
 docker:
   port: 9999
