@@ -1,1 +1,4 @@
-test: testValue
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:8761/eureka/
