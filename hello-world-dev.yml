@@ -4,3 +4,8 @@ server:
 logging:
   level:
      com.cooksys: debug
+     
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:8761/eureka/
